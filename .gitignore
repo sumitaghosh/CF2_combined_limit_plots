@@ -1,5 +1,5 @@
 # repository-specific things to ignore
-*/plot/*
+*/plots/*
 *.idea*
 
 # Byte-compiled / optimized / DLL files
