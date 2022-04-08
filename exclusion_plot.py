@@ -4,6 +4,13 @@ import pandas as pd
 from glob import glob
 from os.path import join
 
+eVs = 1.5192e15
+MPl = 1.22e19
+G = 1/MPl**2
+Mpl = MPl/np.sqrt(8 * np.pi)
+me0 = 0.511  # MeV
+rho_DM = 0.4 / ((eVs * 1e9) / 3e10) ** 3  # GeV
+me = 0.511e-3  # GeV
 h_eVs = 4.135667696E-15  # eV * s
 h_ueV = h_eVs * 1e6  # ueV * s
 upper_limit = 10  # highest limit for data
